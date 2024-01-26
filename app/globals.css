@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  /*1rem = 10px*/
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+input {
+  font-size: 16px !important;
+}
+
+img {
+  max-width: 100%;
+}
